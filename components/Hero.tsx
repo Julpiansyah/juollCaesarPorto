@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Container from "./Container";
 import { personal } from "@/data/personal";
