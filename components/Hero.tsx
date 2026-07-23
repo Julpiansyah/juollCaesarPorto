@@ -29,7 +29,7 @@ export default function Hero() {
             >
               <Image
                 src="/julpiansyah.png"
-                alt="Muhamad Mulyana Julpiansyah"
+                alt="Muhamad Mulyana Julpiansyah | Fulstack-Developer | SMK Wikrama Bogor"
                 fill
                 sizes="(max-width: 640px) 256px, 320px"
                 className="object-cover object-center"
