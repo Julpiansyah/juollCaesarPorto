@@ -1,9 +1,12 @@
-import Link from "next/link";
 import Image from "next/image";
 import Container from "./Container";
 import { personal } from "@/data/personal";
 
 export default function Hero() {
+  function scrollToProjects() {
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <section id="home" className="min-h-screen pt-20 sm:pt-24 relative overflow-hidden">
       {/* Background Pattern */}
@@ -62,13 +65,13 @@ export default function Hero() {
               Building digital experiences with bold aesthetics and
               cutting-edge technology.
             </p>
-            <Link
-              href="#projects"
-              className="inline-block px-8 py-4 bg-cyan-neon text-black font-bold border-4 border-black transition-all duration-200 hover:translate-x-1 hover:translate-y-1"
+            <button
+              onClick={scrollToProjects}
+              className="inline-block px-8 py-4 bg-cyan-neon text-black font-bold border-4 border-black transition-all duration-200 hover:translate-x-1 hover:translate-y-1 animate-float cursor-pointer"
               style={{ boxShadow: "6px 6px 0 #000" }}
             >
               VIEW PROJECTS
-            </Link>
+            </button>
           </div>
         </div>
       </Container>
