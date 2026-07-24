@@ -13,7 +13,7 @@ export default function Footer() {
       <Container className="relative">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="pixel-font text-xs text-center sm:text-left">
-            &copy; 2024 {personal.name.first.toUpperCase()} {personal.name.last.toUpperCase()} {"// ALL RIGHTS RESERVED"}
+            &copy; 2026 {personal.name.first.toUpperCase()} {personal.name.last.toUpperCase()} {"// ALL RIGHTS RESERVED"}
           </p>
 
           {/* Back to Top */}

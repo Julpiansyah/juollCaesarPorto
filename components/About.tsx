@@ -162,7 +162,7 @@ export default function About() {
             </div>
             {/* Learning */}
             <div className="about-card bg-white border-4 border-black p-6 sm:col-span-2 lg:col-span-2" style={{ boxShadow: "6px 6px 0 #000" }}>
-              <h4 className="font-bold text-lg mb-4 pb-2 border-b-4 border-magenta-neon">SEDANG DIPelajari</h4>
+              <h4 className="font-bold text-lg mb-4 pb-2 border-b-4 border-magenta-neon">SEDANG DIPELAJARI</h4>
               <div className="flex flex-wrap gap-2">
                 {personal.techStack.learning.map((tech) => (
                   <span key={tech} className="pixel-font text-xs px-3 py-1 bg-black text-magenta-neon">

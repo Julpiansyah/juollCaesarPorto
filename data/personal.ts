@@ -25,7 +25,7 @@ export const personal = {
       "Next.js",
       "React",
       "TypeScript",
-      "JavaScript (ES6+)",
+      "JavaScript",
       "Tailwind CSS",
       "HTML5",
       "CSS3",
@@ -34,7 +34,7 @@ export const personal = {
     ],
     backend: ["Laravel", "PHP", "Express.js", "Node.js", "REST API"],
     database: ["MySQL", "PostgreSQL", "MongoDB"],
-    tools: ["Git", "GitHub", "VS Code", "Figma", "Postman"],
-    learning: ["TypeScript Lanjutan", "Next.js Lanjutan", "Laravel 13"],
+    tools: ["Git", "GitHub", "VS Code", "Figma", "Postman", "Gitlab"],
+    learning: ["TypeScript Lanjutan", "Next.js Lanjutan", "Laravel 13", "Mengembangkan IOT via ARDUINO Dan MERAKIT ALAT"],
   },
 } as const;
